@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Code2, Sparkles, Rocket } from 'lucide-svelte';
+	import { t } from '$lib/i18n';
 </script>
 
 <section id="about" class="py-24 bg-white">
@@ -8,7 +9,7 @@
 			<!-- Section header -->
 			<div class="text-center mb-16">
 				<h2 class="text-4xl md:text-5xl font-bold text-primary mb-4">
-					O mně
+					{$t.about.title}
 				</h2>
 				<div class="w-20 h-1 bg-gradient-to-r from-accent to-secondary mx-auto rounded-full"></div>
 			</div>
@@ -20,9 +21,9 @@
 					<div class="w-12 h-12 bg-gradient-to-br from-accent to-accent-light rounded-xl flex items-center justify-center mb-4">
 						<Code2 class="text-white" size={24} />
 					</div>
-					<h3 class="text-xl font-bold text-primary mb-3">Clean Code</h3>
+					<h3 class="text-xl font-bold text-primary mb-3">{$t.about.cleanCode.title}</h3>
 					<p class="text-text-muted leading-relaxed">
-						Píšu čitelný a udržovatelný kód s důrazem na best practices a moderní standardy.
+						{$t.about.cleanCode.description}
 					</p>
 				</div>
 				
@@ -31,9 +32,9 @@
 					<div class="w-12 h-12 bg-gradient-to-br from-secondary to-secondary-light rounded-xl flex items-center justify-center mb-4">
 						<Sparkles class="text-primary" size={24} />
 					</div>
-					<h3 class="text-xl font-bold text-primary mb-3">Moderní Design</h3>
+					<h3 class="text-xl font-bold text-primary mb-3">{$t.about.modernDesign.title}</h3>
 					<p class="text-text-muted leading-relaxed">
-						Vytvářím vizuálně atraktivní a uživatelsky přívětivá rozhraní s důrazem na UX.
+						{$t.about.modernDesign.description}
 					</p>
 				</div>
 				
@@ -42,9 +43,9 @@
 					<div class="w-12 h-12 bg-gradient-to-br from-primary to-primary-light rounded-xl flex items-center justify-center mb-4">
 						<Rocket class="text-white" size={24} />
 					</div>
-					<h3 class="text-xl font-bold text-primary mb-3">Rychlý Vývoj</h3>
+					<h3 class="text-xl font-bold text-primary mb-3">{$t.about.fastDevelopment.title}</h3>
 					<p class="text-text-muted leading-relaxed">
-						Efektivně pracuji s moderními technologiemi a frameworky pro rychlé dodání projektů.
+						{$t.about.fastDevelopment.description}
 					</p>
 				</div>
 			</div>
@@ -52,12 +53,10 @@
 			<!-- Bio -->
 			<div class="bg-gradient-to-br from-primary-50 to-background p-8 md:p-12 rounded-2xl border border-primary-100">
 				<p class="text-lg text-text-secondary leading-relaxed mb-6">
-					Jsem full-stack developer se zaměřením na moderní webové technologie. 
-					Rád pracuji s JavaScriptem/TypeScriptem, Svelte, React a Node.js.
+					{$t.about.bio1}
 				</p>
 				<p class="text-lg text-text-secondary leading-relaxed">
-					Mám zkušenosti s vývojem od front-endu přes API až po databáze. 
-					Neustále se vzdělávám a sleduji nejnovější trendy v oblasti web developmentu.
+					{$t.about.bio2}
 				</p>
 			</div>
 		</div>

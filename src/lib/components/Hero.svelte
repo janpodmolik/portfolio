@@ -1,14 +1,15 @@
 <script lang="ts">
 	import { ArrowDown } from 'lucide-svelte';
+	import { t } from '$lib/i18n';
 </script>
 
-<section id="hero" class="min-h-screen flex items-center justify-center relative">
+<section id="hero" class="py-24 relative">
 	<div class="container mx-auto px-6">
 		<div class="max-w-4xl mx-auto text-center">
 			<!-- Animated gradient badge -->
 			<div class="inline-block mb-8">
 				<span class="px-4 py-2 rounded-full bg-gradient-to-r from-accent/20 to-secondary/20 text-primary-dark text-sm font-medium border border-accent/30">
-					👋 Vítejte na mém portfoliu
+					{$t.hero.welcome}
 				</span>
 			</div>
 			
@@ -20,13 +21,12 @@
 			
 			<!-- Subtitle -->
 			<p class="text-2xl md:text-3xl text-text-secondary mb-8 font-medium">
-				Full-stack Developer
+				{$t.hero.position}
 			</p>
 			
 			<!-- Description -->
 			<p class="text-lg md:text-xl text-text-muted max-w-2xl mx-auto mb-12 leading-relaxed">
-				Tvořím moderní webové aplikace s důrazem na čistý kód, 
-				uživatelskou přívětivost a výkon.
+				{$t.hero.description}
 			</p>
 			
 			<!-- CTA Buttons -->
@@ -35,13 +35,13 @@
 					href="#projects" 
 					class="px-8 py-4 bg-primary text-white rounded-lg font-medium hover:bg-primary-dark transition-all hover:scale-105 shadow-lg hover:shadow-xl"
 				>
-					Zobrazit projekty
+					{$t.hero.viewProjects}
 				</a>
 				<a 
 					href="#about" 
 					class="px-8 py-4 bg-white text-primary rounded-lg font-medium hover:bg-primary-50 transition-all border-2 border-primary-100 hover:border-primary"
 				>
-					Více o mně
+					{$t.hero.moreAbout}
 				</a>
 			</div>
 		</div>

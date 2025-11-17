@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { t } from '$lib/i18n';
+	
 	interface Skill {
 		name: string;
 		category: 'frontend' | 'backend' | 'tools';
@@ -41,11 +43,11 @@
 			<!-- Section header -->
 			<div class="text-center mb-16">
 				<h2 class="text-4xl md:text-5xl font-bold text-primary mb-4">
-					Technologie & Skills
+					{$t.skills.title}
 				</h2>
 				<div class="w-20 h-1 bg-gradient-to-r from-accent to-secondary mx-auto rounded-full"></div>
 				<p class="text-text-muted mt-6 text-lg">
-					Technologie, se kterými pravidelně pracuji
+					{$t.skills.subtitle}
 				</p>
 			</div>
 			
@@ -55,7 +57,7 @@
 					<div>
 						<h3 class="text-2xl font-bold text-primary mb-6 flex items-center gap-3">
 							<span class="text-3xl">{emoji}</span>
-							{title}
+							{$t.skills[key]}
 						</h3>
 						
 						<div class="flex flex-wrap gap-3">
@@ -76,7 +78,7 @@
 			<!-- Additional info -->
 			<div class="mt-16 p-8 bg-white rounded-2xl border-2 border-primary-100 text-center">
 				<p class="text-text-secondary text-lg">
-					✨ Neustále se učím nové věci a rozšiřuji svůj tech stack
+					{$t.skills.learning}
 				</p>
 			</div>
 		</div>

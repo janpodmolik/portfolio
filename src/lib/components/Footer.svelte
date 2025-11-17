@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Github, Linkedin, Mail } from 'lucide-svelte';
+	import { t } from '$lib/i18n';
 </script>
 
 <footer class="bg-primary-50 border-t border-primary-100 py-12">
@@ -7,10 +8,8 @@
 		<div class="flex flex-col md:flex-row justify-between items-center gap-6">
 			<div class="text-center md:text-left">
 				<h3 class="text-xl font-bold text-primary mb-2">Jan Podmolík</h3>
-				<p class="text-text-muted">Full-stack Developer</p>
-			</div>
-			
-			<div class="flex gap-6">
+				<p class="text-text-muted">{$t.footer.position}</p>
+			</div>			<div class="flex gap-6">
 				<a 
 					href="https://github.com/janpodmolik" 
 					target="_blank"
@@ -40,7 +39,7 @@
 		</div>
 		
 		<div class="mt-8 pt-6 border-t border-primary-100 text-center text-sm text-text-muted">
-			© {new Date().getFullYear()} Jan Podmolík. All rights reserved.
+			© {new Date().getFullYear()} Jan Podmolík. {$t.footer.rights}
 		</div>
 	</div>
 </footer>
