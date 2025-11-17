@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { ExternalLink, Globe } from 'lucide-svelte';
 	import { t } from '$lib/i18n';
+	import { siteConfig } from '$lib/config';
 	
 	interface Project {
 		title: string;
@@ -115,7 +116,7 @@
 			<!-- More projects CTA -->
 			<div class="mt-16 text-center">
 				<a 
-					href="https://github.com/janpodmolik"
+					href={siteConfig.social.github}
 					target="_blank"
 					rel="noopener noreferrer"
 					class="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-lg font-medium 

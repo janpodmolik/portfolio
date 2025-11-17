@@ -2,6 +2,7 @@
 	import { Github, Linkedin, Mail, Languages } from 'lucide-svelte';
 	import { language } from '$lib/stores/language';
 	import { t } from '$lib/i18n';
+	import { siteConfig } from '$lib/config';
 	import logo from '$lib/assets/jp-logo.png';
 	
 	function toggleLanguage() {
