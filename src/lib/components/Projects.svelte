@@ -18,7 +18,7 @@
 			title: 'Zdravíčko',
 			descriptionKey: 'zdravicko',
 			tags: ['Astro', 'TypeScript', 'Tailwind'],
-			website: 'https://zdravicko.cz',
+			website: 'https://zdravicko.org',
 			gradient: 'from-secondary/20 to-accent/20',
 			icon: '🏥'
 		},
@@ -26,7 +26,7 @@
 			title: 'Notino',
 			descriptionKey: 'notino',
 			tags: ['Swift', 'SwiftUI', 'iOS'],
-			appStore: 'https://apps.apple.com/app/notino/id738131177',
+			appStore: 'https://apps.apple.com/cz/app/notino-parf%C3%A9my-a-kosmetika/id1261812151?l=cs',
 			gradient: 'from-accent/20 to-secondary/20',
 			icon: '💄'
 		},
@@ -34,7 +34,7 @@
 			title: 'SOVA',
 			descriptionKey: 'sova',
 			tags: ['Swift', 'SwiftUI', 'iOS'],
-			appStore: 'https://apps.apple.com/app/sova/id123456789',
+			appStore: 'https://apps.apple.com/cz/app/sova-stay-organized/id6744672956?l=cs',
 			gradient: 'from-primary/20 to-primary-light/20',
 			icon: '🦉'
 		},
