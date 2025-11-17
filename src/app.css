@@ -1,0 +1,50 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-background text-text-primary font-sans;
+	}
+	
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
+@layer utilities {
+	.fade-in {
+		animation: fadeIn 0.8s ease-out;
+	}
+	
+	.slide-up {
+		animation: slideUp 0.6s ease-out;
+	}
+	
+	@keyframes fadeIn {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	
+	@keyframes slideUp {
+		from {
+			opacity: 0;
+			transform: translateY(30px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+}
