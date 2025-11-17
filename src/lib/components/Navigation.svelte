@@ -24,6 +24,9 @@
 					<a href="#projects" class="text-text-secondary hover:text-primary transition-colors">
 						{$t.nav.projects}
 					</a>
+					<a href="#contact" class="text-text-secondary hover:text-primary transition-colors">
+						{$t.nav.contact}
+					</a>
 				</div>
 				
 				<div class="flex gap-4 items-center border-l border-primary-100 pl-6">

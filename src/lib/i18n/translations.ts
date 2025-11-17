@@ -3,6 +3,7 @@ export const translations = {
 		nav: {
 			about: 'O mně',
 			projects: 'Projekty',
+			contact: 'Kontakt',
 		},
 		hero: {
 			welcome: '👋 Vítejte na mém portfoliu',
@@ -29,14 +30,6 @@ export const translations = {
 			bio1: 'Původně jsem iOS developer a v poslední době i díky rozmachu AI jsem začal zkoušet nové technologie. Vytvářet webové stránky mě chytlo natolik, že chci jít chvíli i touto cestou.',
 			bio2: 'Nemám za sebou velké množství projektů, ale jsem připraven na jakoukoliv výzvu a rád se učím novým věcem. Kombinuji zkušenosti z nativního vývoje s moderními web technologiemi.',
 		},
-		skills: {
-			title: 'Technologie & Skills',
-			subtitle: 'Technologie, se kterými pravidelně pracuji',
-			frontend: '🎨 Frontend',
-			backend: '⚙️ Backend',
-			tools: '🛠️ Tools & DevOps',
-			learning: '✨ Neustále se učím nové věci a rozšiřuji svůj tech stack',
-		},
 		projects: {
 			title: 'Projekty',
 			subtitle: 'Výběr projektů, na kterých pracuji',
@@ -58,6 +51,15 @@ export const translations = {
 				},
 			},
 		},
+		contact: {
+			title: 'Pojďme spolupracovat',
+			subtitle: 'Mám zájem o nové projekty a zajímavé výzvy',
+			description: 'Pokud máte zájem o statický web případně i něco komplexnějšího, určitě se nebojte ozvat a domluvíme se.',
+			email: 'jan.podmolik@gmail.com',
+			emailLabel: 'Napište mi email',
+			availability: 'Aktuálně otevřen novým projektům',
+			responseTime: 'Obvykle odpovídám do 24 hodin',
+		},
 		footer: {
 			position: 'iOS & Web Developer',
 			rights: 'Všechna práva vyhrazena.',
@@ -67,6 +69,7 @@ export const translations = {
 		nav: {
 			about: 'About',
 			projects: 'Projects',
+			contact: 'Contact',
 		},
 		hero: {
 			welcome: '👋 Welcome to my portfolio',
@@ -93,14 +96,6 @@ export const translations = {
 			bio1: 'I\'m originally an iOS developer, and recently, thanks to the rise of AI, I\'ve started trying new technologies. Creating websites caught my attention so much that I want to pursue this path for a while.',
 			bio2: 'I don\'t have a huge number of projects behind me, but I\'m ready for any challenge and eager to learn new things. I combine experience from native development with modern web technologies.',
 		},
-		skills: {
-			title: 'Technologies & Skills',
-			subtitle: 'Technologies I work with regularly',
-			frontend: '🎨 Frontend',
-			backend: '⚙️ Backend',
-			tools: '🛠️ Tools & DevOps',
-			learning: '✨ Constantly learning new things and expanding my tech stack',
-		},
 		projects: {
 			title: 'Projects',
 			subtitle: 'Selection of projects I work on',
@@ -121,6 +116,15 @@ export const translations = {
 					description: 'First web project for a pediatric medical clinic. Modern responsive website with focus on friendly design.',
 				},
 			},
+		},
+		contact: {
+			title: 'Let\'s Work Together',
+			subtitle: 'I\'m interested in new projects and exciting challenges',
+			description: 'If you\'re interested in a static website or something more complex, don\'t hesitate to reach out and we\'ll discuss it.',
+			email: 'jan.podmolik@gmail.com',
+			emailLabel: 'Send me an email',
+			availability: 'Currently open to new projects',
+			responseTime: 'Usually respond within 24 hours',
 		},
 		footer: {
 			position: 'iOS & Web Developer',

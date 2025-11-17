@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import favicon from '$lib/assets/favicon.svg';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
@@ -8,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={favicon} />
+	<link rel="icon" href="/favicon.ico" />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="author" content="Jan Podmolík" />
